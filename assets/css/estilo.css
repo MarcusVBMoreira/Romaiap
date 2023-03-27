@@ -1,0 +1,618 @@
+/* Escruturas */
+html{
+    scroll-behavior: smooth;
+    min-height: 100%;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffdeac;
+}
+
+/*
+header{
+    
+}
+*/
+
+
+
+
+
+/* Escrita */
+h1{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 32px;
+}
+
+h2, a{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+    margin: 0;
+}
+
+h3{
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    text-decoration: none;
+    margin: 0;
+    font-size: 1em;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    margin-bottom: 0;
+    text-indent: 15px;
+    color: black;
+}
+
+
+
+
+
+/* Menu */
+.menu{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    background-color: #aacaf4;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.itens_menu{
+     text-align: right;
+     display: inline;
+     width: 85%;
+}
+
+.itens_menu li{
+    display: inline;
+    font-size: 25px;
+    padding: 1%;
+}
+
+.itens_menu ul{
+    padding: 1%;
+    margin: 0%;
+}
+
+.itens_menu a{
+    border-radius: 100%;
+    padding: 1%;
+}
+
+.itens_menu a:hover{
+    background-color: #11315b;
+}
+
+.logo{
+    width: 15%;
+}
+
+.img_logo{
+    width: 85%;
+    padding-left: 5%;
+}
+
+
+
+
+
+/* Container// */
+.container{
+    width: 90%;;
+    margin-top: 6%;
+    margin-bottom: 2.5%;
+    text-align: center;
+}
+
+.subtitulo{
+    margin-bottom: 0;
+}
+
+
+
+/* Container// Sobre */
+.sobre{
+    padding: 2%;
+    background-size: cover;
+}
+
+.sobre h1{
+    font-size: 3em;
+    text-align: center;
+    padding: 0.5%;
+}
+
+.sobre h2{
+    font-size: 1.5em;
+    text-align: left;
+    padding-top: 1%;
+    padding-bottom: 0.2%;
+}
+
+.sobre p{
+    font-size: 1em;
+    color: black;
+}
+
+.corpo{
+    padding-top: 1%;
+}
+
+.img_foto{
+    width: 20%;
+    float: left;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+
+
+/* Container// operacao */
+.operacao{
+    padding: 2%;
+    background-color: #869aaf;
+    margin-top: 1%;
+}
+
+.operacao h1{
+    text-align: center;
+    font-size: 3em;
+    padding: 1%;
+}
+
+.operacao h2{
+    font-size: 1.5em;
+    text-align: left;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+
+}
+
+.operacao p{
+    text-align: justify;
+    font-size: 1em;
+    color: black;
+}
+
+.decimal li{
+    list-style-type: decimal;
+}
+
+.disc{
+    list-style-type: disc;
+}
+
+.img_check{
+    width: 2%;
+    float: left;
+    padding-top: 0.5%;
+}
+
+.agenda li{
+    padding: 0;
+    margin: 0;
+}
+
+.prazos li{
+    list-style-type: disc;
+}
+
+.subtitulo1{
+    margin-top: 1%;
+}
+
+.agenda_h2{
+    margin-top: 5%;
+}
+
+.prazos_h2{
+    margin-top: 5%;
+}
+
+.proposta_h2{
+    margin-top: 5%;
+}
+
+.proposta_comercial table{
+    text-align: center;
+}
+
+.table_proposta{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table_proposta th{
+    background-color: #ffbd59;
+    padding: 1%;
+    border: 1px solid black;
+}
+
+.table_proposta td{
+    padding: 1%;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #fffaf4;
+}
+
+.table_proposta h2{
+    text-align: center;
+}
+
+.proposta{
+    width: 60%;
+    text-align: center;
+}
+
+.prazo{
+    width: 15%;
+}
+
+.investimento{
+    width: 25%;
+}
+
+.pagamento{
+    margin-top: 2%;
+    background-color: #11315b;
+}
+
+.pagamento h3{
+    padding-top: 1%;
+}
+
+.pagamento p{
+    color: #ffffff;
+    padding: 1%;
+}
+
+
+
+/* Container// Contato */
+.contato{
+    padding: 2%;
+    margin-top: 1%;
+    background-color: #fffaf4;
+    padding-bottom: 7%;
+}
+
+.contato h1{
+    font-size: 3em;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 0;
+}
+
+.contato h2{
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.contato p{
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 3%;
+    color: black;
+}
+
+.botao_cont{
+    padding: 1%;
+    background-color: #11315b;
+    width: 10%;
+    text-align: center;
+    float: right;
+    margin-top: 2%;
+}
+.botao_cont a{
+    color: #ffffff;
+}
+
+.imgs{
+    text-align: center;
+}
+
+.img_checks{
+    width: 50%;
+    float: left;
+}
+
+.logo_1{
+    width: 30%;
+    float: right;
+    margin-right: 7%;
+}
+
+.sociais{
+    padding-top: 30%;
+}
+
+.telefone{
+    width: 5%;
+    margin-right: 1%;
+    
+}
+
+.email{
+    width: 5%;
+    margin-right: 1%;
+}
+
+.linkedin{
+    width: 5%;
+    margin-right: 1%;
+}
+
+.endereco{
+    width: 5%;
+    margin-right: 1%;
+}
+
+.icons li{
+    width: 100%;
+    margin: 1.5%;
+}
+
+
+
+
+
+/* Footer */
+footer{
+    background-color: #aacaf4;
+    padding: 2%;
+    margin-top: auto;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1em;
+    color: black;
+}
+
+footer a{
+    color: #11315b;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsividade do site */
+
+
+
+/* Main-width */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
+
+/* Max-width */
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+}
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+}
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+}
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+
+}
+
+
+
+
+
+
+
+
+
+/* Responsive layout */
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    .logo{
+        width: 25%;
+    }
+
+    .itens_menu{
+        width: 75%;
+    }
+
+    .img_logo{
+        width: 85%;
+    }
+
+    .sobre{
+        margin-top: 5%;
+    }
+
+    .agenda ul{
+        margin-left: 0;
+        padding-left: 0.7%;
+    }
+
+    .img_check{
+        width: 5%;
+        margin-top: 1%;
+    }
+
+    .agenda p{
+        margin-right: 1%;
+    }
+
+    .prazos p{
+        margin-right: 1%;
+    }
+
+    .proposta{
+        width: 40%;
+    }
+
+    .contato{
+        padding-bottom: 10%;
+    }
+
+    .botao_cont{
+        width: 20%;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .logo{
+        width: 20%;
+    }
+
+    .itens_menu{
+        width: 80%;
+    }
+
+    .img_logo{
+        width: 85%;
+    }
+
+    .sobre{
+        margin-top: 3%;
+    }
+
+    .agenda ul{
+        margin-left: 0;
+        padding-left: 0.7%;
+    }
+
+    .img_check{
+        width: 3%;
+        margin-top: 0.7%;
+    }
+
+    .agenda p{
+        margin-right: 1%;
+    }
+
+    .prazos p{
+        margin-right: 1%;
+    }
+
+    .proposta{
+        width: 40%;
+    }
+
+    .contato{
+        padding-bottom: 10%;
+    }
+
+    .botao_cont{
+        width: 15%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .logo{
+        width: 18%;
+    }
+
+    .itens_menu{
+        width: 82%;
+    }
+
+    .img_logo{
+        width: 85%;
+    }
+
+    .sobre{
+        margin-top: 1%;
+    }
+
+    .agenda ul{
+        margin-left: 0;
+        padding-left: 0.7%;
+    }
+
+    .img_check{
+        width: 2%;
+        margin-top: 0.4%;
+    }
+
+    .agenda p{
+        margin-right: 1%;
+    }
+
+    .prazos p{
+        margin-right: 1%;
+    }
+
+    .proposta{
+        width: 40%;
+    }
+
+    .contato{
+        padding-bottom: 8%;
+    }
+
+    .botao_cont{
+        width: 12%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px){
+
+}
