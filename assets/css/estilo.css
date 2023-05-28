@@ -28,7 +28,7 @@ h1{
     font-size: 32px;
 }
 
-h2, a{
+h2, a, button{
     font-family: 'Comfortaa', cursive;
     font-size: 1em;
     color: black;
@@ -51,6 +51,7 @@ p{
     text-indent: 15px;
     color: black;
 }
+
 
 
 
@@ -119,6 +120,10 @@ p{
     margin-bottom: 0;
 }
 
+/* Container// Carousel */
+.carousel{
+    margin-bottom: 1%;
+}
 
 
 /* Container// Sobre */
@@ -159,7 +164,7 @@ p{
 
 
 
-/* Container// operacao */
+/* Container// ajuda */
 .operacao{
     padding: 2%;
     background-color: #869aaf;
@@ -200,7 +205,7 @@ p{
     padding-top: 0.5%;
 }
 
-.agenda li{
+.ajuda li{
     padding: 0;
     margin: 0;
 }
@@ -213,71 +218,23 @@ p{
     margin-top: 1%;
 }
 
-.agenda_h2{
+.ajuda_h2{
     margin-top: 5%;
 }
 
-.prazos_h2{
-    margin-top: 5%;
+.lista_ajuda li{
+    list-style-type: disc;
+    margin-left: 2.5%;
 }
 
-.proposta_h2{
-    margin-top: 5%;
-}
 
-.proposta_comercial table{
-    text-align: center;
+/* Container// Funcionamento */
+.funcionamento{
+    margin-top: 3%;
 }
-
-.table_proposta{
+.post6{
     width: 100%;
-    border-collapse: collapse;
 }
-
-.table_proposta th{
-    background-color: #ffbd59;
-    padding: 1%;
-    border: 1px solid black;
-}
-
-.table_proposta td{
-    padding: 1%;
-    text-align: center;
-    border: 1px solid black;
-    background-color: #fffaf4;
-}
-
-.table_proposta h2{
-    text-align: center;
-}
-
-.proposta{
-    width: 60%;
-    text-align: center;
-}
-
-.prazo{
-    width: 15%;
-}
-
-.investimento{
-    width: 25%;
-}
-
-.pagamento{
-    margin-top: 2%;
-    background-color: #11315b;
-}
-
-.pagamento h3{
-    padding-top: 1%;
-}
-
-.pagamento p{
-    color: #ffffff;
-    padding: 1%;
-}
-
 
 
 /* Container// Contato */
@@ -310,15 +267,21 @@ p{
 }
 
 .botao_cont{
-    padding: 1%;
     background-color: #11315b;
     width: 10%;
+    padding: 1%;
     text-align: center;
     float: right;
     margin-top: 2%;
+    border-radius: 25px;
 }
 .botao_cont a{
+    padding: 10%;
     color: #ffffff;
+}
+
+.botao_cont:hover{
+    background-color: #ffbd59;
 }
 
 .imgs{
@@ -356,9 +319,9 @@ p{
     margin-right: 1%;
 }
 
-.endereco{
-    width: 5%;
-    margin-right: 1%;
+.instagram{
+    width: 7%;
+
 }
 
 .icons li{
@@ -367,8 +330,60 @@ p{
 }
 
 
+/*Toast*/
+._toast{
+    float: right;
+    position: fixed;
+    z-index: 5;
+    padding: 1%;
+    width: 12%;
+    text-align: center;
+    margin-top: 33%;
+    margin-left: 71%;
+    background-color: #ffbd59;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(56, 56, 56, 0.9);
+    display: block;
+}
+.txt{
+    text-align: center;
+    padding-top: 9%;
+    padding-bottom: 10%;
+}
+.txt p{
+    text-align: center;
+    text-align: 0;
+    text-indent: 0;
+}
+._toast ul{
+    padding: 0%;
+    width: 100%;
+}
+._toast li{
+    padding: 0%;
+}
 
-
+.btn-close{
+    float: right;
+    float: top;
+    padding: 1%;
+}
+.botoes{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.botoes button{
+ background-color: #11315b;
+ border-radius: 10px;
+}
+.btn_sim{
+    margin-left: 15%;
+    padding: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-right: 15%;
+    font-size: 1.3em;
+}
 
 /* Footer */
 footer{
@@ -482,11 +497,15 @@ footer a{
         width: 85%;
     }
 
+    .container{
+        padding-top: 3%;
+    }
+
     .sobre{
         margin-top: 5%;
     }
 
-    .agenda ul{
+    .ajuda ul{
         margin-left: 0;
         padding-left: 0.7%;
     }
@@ -496,16 +515,12 @@ footer a{
         margin-top: 1%;
     }
 
-    .agenda p{
+    .ajuda p{
         margin-right: 1%;
     }
 
     .prazos p{
         margin-right: 1%;
-    }
-
-    .proposta{
-        width: 40%;
     }
 
     .contato{
@@ -516,6 +531,11 @@ footer a{
         width: 20%;
     }
 
+    ._toast{
+        width: 20%;
+        margin-left: 62%;
+        margin-top: 85%;
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px){
     .logo{
@@ -530,11 +550,15 @@ footer a{
         width: 85%;
     }
 
+    .container{
+        padding-top: 2%;
+    }
+
     .sobre{
         margin-top: 3%;
     }
 
-    .agenda ul{
+    .ajuda ul{
         margin-left: 0;
         padding-left: 0.7%;
     }
@@ -544,7 +568,7 @@ footer a{
         margin-top: 0.7%;
     }
 
-    .agenda p{
+    .ajuda p{
         margin-right: 1%;
     }
 
@@ -563,6 +587,11 @@ footer a{
     .botao_cont{
         width: 15%;
     }
+    ._toast{
+        width: 18%;
+        margin-left: 67%;
+        margin-top: 60%;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px){
@@ -578,11 +607,15 @@ footer a{
         width: 85%;
     }
 
+    .container{
+        padding-top: 1%;
+    }
+
     .sobre{
         margin-top: 1%;
     }
 
-    .agenda ul{
+    .ajuda ul{
         margin-left: 0;
         padding-left: 0.7%;
     }
@@ -592,7 +625,7 @@ footer a{
         margin-top: 0.4%;
     }
 
-    .agenda p{
+    .ajuda p{
         margin-right: 1%;
     }
 
@@ -611,8 +644,17 @@ footer a{
     .botao_cont{
         width: 12%;
     }
+    ._toast{
+        width: 17%;
+        margin-left: 70%;
+        margin-top: 50%;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px){
-
+    ._toast{
+        width: 14%;
+        margin-left: 76%;
+        margin-top: 30%;
+    }
 }

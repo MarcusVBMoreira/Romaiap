@@ -22,10 +22,10 @@
         <!-- Favicon -->
         <link rel="shortcut icon" href="assets/img/7.png" type="image/x-icon">
 
-         <!-- CSS --> 
-         <link rel="stylesheet" href="assets/css/estilo.css">
+        <!-- CSS --> 
+        <link rel="stylesheet" href="assets/css/estilo.css">
 
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     </head>
 
@@ -55,7 +55,50 @@
         <!-- Container -->
         <div class="container">
 
-            
+            <section class="toast_">
+                <div class="_toast" id="_toast">
+                    <div>
+                        <button type="button" id="btn-close" class="btn-close"></button>
+                        <div class="txt">
+                            <p>Deseja entrar em contato?</p> 
+                        </div>
+                        <ul class="botoes">
+                            <li class="li">
+                                <a href="https://api.whatsapp.com/send/?phone=5511995574494&text&type=phone_number&app_absent=0"><button class="btn_sim">Sim</button></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Carousel -->
+            <section class="carousel_" id="carousel_">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="assets/img/post_10.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/post_11.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/post_12.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/post_13.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" style="background-image: url(assets/img/left-arrow.png);" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" style="background-image: url(assets/img/right-arrow.png);" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </section>
+
 
             <!-- Sobre -->
             <section class="sobre" id="sobre" style="background-image: url('assets/img/armazem.png');">
@@ -182,100 +225,56 @@
                 
 
 
-                <section class="agenda_">
+                <section class="ajuda_">
                     <!-- Subtítulo 2 -->
                     <div class="subtitulo2">
-                        <h2 class="agenda_h2">Agenda</h2>
+                        <h2 class="ajuda_h2">Como podemos te ajudar</h2>
                     </div>
 
                     <!-- Corpo 2 -->
                     <div class="corpo">
-                        <div class="agenda">
+                        <div class="ajdua">
                             <ul>
-                                <li><img src="assets/img/check.png" alt="check" class="img_check"><p>Criação do Fluxograma da operação macro;</p></li>
-                                <li><img src="assets/img/check.png" alt="check" class="img_check"><p>Criação dos Fluxogramas das operações micro (de cada setor);</p></li>
-                                <li><img src="assets/img/check.png" alt="check" class="img_check"><p>Criação do Fluxograma da operação fiscal dentro do ERP;</p></li>
-                                <li><img src="assets/img/check.png" alt="check" class="img_check"><p>Elaboração do Layout da estrutura física e acompanhamento da estruturação;</p></li>
-                                <li><img src="assets/img/check.png" alt="check" class="img_check"><p>Assessoria na Criação do Perfil de Cirurgia junto ao cliente e treinamento da equipe de vendas de como agendar a cirurgia.</p></li>
-                                <li><img src="assets/img/check.png" alt="check" class="img_check"><p>Treinamento das equipes quanto ao fluxo da operação e do sistema ERP Viman;</p></li>
-                                <li><img src="assets/img/check.png" alt="check" class="img_check"><p>Acompanhamento do início da operação do cliente;</p></li>
-                                <li><img src="assets/img/check.png" alt="check" class="img_check"><p>Participação de reuniões com o cliente (se necessário) para possíveis alinhamentos e esclarecimentos;</p></li>
-                                <li><img src="assets/img/check.png" alt="check" class="img_check"><p>Ajustes de processos dentro do prazo contratado, caso seja necessário;</p></li>
+                                <li><img src="assets/img/check.png" alt="check" class="img_check"><p>Elaboração do Fluxo de toda a cadeia operacional para atendimento das cirurgias:</p></li>
+                                <div class="lista_ajuda">
+                                    <ul>
+                                        <li><p>Recebimento da solicitação da cirurgia;</p></li>
+                                        <li><p>Envio da cotação para a Operadora/Hospital;</p></li>
+                                        <li><p>Folow-up da cotação;</p></li>
+                                        <li><p>Aprovação da cotação/agendamento;</p></li>
+                                        <li><p>Separação do material pela área operacional;</p></li>
+                                        <li><p>Entrega do material;</p></li>
+                                        <li><p>Logística reversa; </p></li>
+                                        <li><p>Conferência, identificação dos itens consumidos, reposição e higienização e teste do material;</p></li>
+                                        <li><p>Reports e tratativas das RNCs; </p></li>
+                                        <li><p>Pós cirúrgico e faturamento.</p></li>
+                                    </ul>
+                                </div>
+                                <li><img src="assets/img/check.png" alt="check" class="img_check"><p>Elaboração do fluxo de recebimento de produtos novos:</p></li>
+                                <div class="lista_ajuda">
+                                    <ul>
+                                        <li><p>Inspeção de recebimento;</p></li>
+                                        <li><p>Rotulagem;</p></li>
+                                        <li><p>Montagem e cadastro de Kits.</p></li>
+                                    </ul>
+                                </div>
+                                <li><img src="assets/img/check.png" alt="check" class="img_check"><p>Elaboração do Layout da operação;</p></li>
+                                <li><img src="assets/img/check.png" alt="check" class="img_check"><p>Assessoria na criação dos Perfis de Cirurgia;</p></li>
+                                <li><img src="assets/img/check.png" alt="check" class="img_check"><p>Treinamento da Equipe;</p></li>
+                                <li><img src="assets/img/check.png" alt="check" class="img_check"><p>Elaboração do Fluxo Fiscal junto ao ERP.</p></li>
                             </ul>
                         </div>
                     </div>
                 </section>
-            
-
-
-                <section class="Prazos_">
-                    <!-- Subtítulo 3 -->
-                    <div class="subtitulo3">
-                        <h2 class="prazos_h2">Prazos</h2>
-                    </div>
-
-                    <!-- Corpo 3 -->
-                    <div class="corpo">
-                        <div class="prazos">
-                            <p>O prazo para a execução e entrega de todas as etapas do projeto é de 4 meses incluindo 1 mês de acompanhamento da operação já funcionando.</p>
-                            <p>Esse período será aproveitado da seguinte forma:</p>
-                            <ul>
-                                <li><p>2 dias por semana durante o planejamento e implantação;</p></li>
-                                <li><p>3 dias por semana no mês de acompanhamento da operação.</p></li>
-                            </ul>
-                            <p>O trabalho acontecerá de forma presencial, limitado a 7 horas por dia ou na modalidade home office.</p>
-                            <p>Tais condições podem ser alteradas caso as partes entendam ser  necessário.</p>
-                            <p>Parte da execução do processo depende de informações, adequações e procedimentos para que consigamos atender os prazos, é de suma importância que essa demanda seja cumprida.</p>
-                        </div>
+                
+                <section class="funcionamento" id="funcionamento">
+                    <div>
+                        <img src="assets/img/post_6.png" alt="Como podemos te ajudar" class="post6">
                     </div>
                 </section>
-                
-
-
-                <section class="proposta_">
-                    <!-- Subtítulo 4 -->
-                    <div class="subtitulo4">
-                        <h2 class="proposta_h2">Proposta Comercial</h2>
-                    </div>
-
-                    <!-- Corpo 4 -->
-                    <div class="corpo">
-                        <div class="proposta_comercial">
-                            <table class="table_proposta">
-                                <tr>
-                                    <th class="proposta"><h2>Proposta</h2></th>
-                                    <th class="prazo"><h2>Prazo</h2></th>
-                                    <th class="investimento"><h2>Investimento</h2></th>
-                                </tr>
-                                <tr>
-                                    <td><p>Consultoria de Implantação da Operação de OPME</p></td>
-                                    <td><p>4 MESES</p></td>
-                                    <td><p>R$ 78.000,00</p></td>
-                                </tr>
-                                <tr>
-                                    <td><p>Prestação de serviço de Assessoria Pós Implantação - Contrato Anual (Opcional)</p></td>
-                                    <td><p class="table_p">32H/MÊS</p></td>
-                                    <td><p class="table_p">R$: 6.000,00 mês</p></td>
-                                </tr>
-                            </table>
-                        </div>
-                        <div class="pagamento">
-                            <!-- h3 -->
-                            <div class="subtitulo5">
-                                <h3>Pagamento</h3>
-                            </div>
-
-                            <!-- Pagamento -->
-                            <div class="pagamento_p">
-                                <p>Para reserva de agenda deve-se dar um sinal de 40% e os outros 60%  parcelados em 4X a cada 30 dias. As condições desta proposta, são válidas para faturamento realizado até o dia 31/03/2023. Após este período o valor está sujeito a alteração.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                
-                
             </section>
 
+            
 
 
 
@@ -305,18 +304,16 @@
                     </div>
                     <div class="icons">
                         <ul>
-                            <li><a href="https://wa.me/5511998270294?text=Oii!%20Vi%20seu%20site.%20Voc%C3%AA%20poderia%20me%20falar%20mais%20sobre%20a%20Romaip?"><img src="assets/img/telefone.png" alt="Icon telefone" class="telefone"></a>(11) 99827-0294</li>
-                            <li><a href="mailto:leoneidebm@hotmail.com?"><img src="assets/img/email.png" alt="Icon email" class="email"></a>Leoneidebm@hotmail.com</li>
-                            <li><a href="https://www.linkedin.com/in/leoneide-bizerra-moreira-20153575/"><img src="assets/img/linkedin.png" alt="Icon linkedin" class="linkedin"></a>Leoneide Bizerra Moreira</li>
-                            <li><a href="https://www.google.com.br/maps/place/R.+dos+Bandeirantes,+550+-+Vila+Bocaina,+Mauá+-+SP,+09310-360/@-23.6699449,-46.45601,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce695c0ae6bb57:0xd642b8c99f8eb17d!8m2!3d-23.6699498!4d-46.453816!16s%2Fg%2F11cp837zv9"><img src="assets/img/endereco.png" alt="Icon endereço" class="endereco"></a>Rua dos Bndeirantes, 550 Vila Bocaina - Mauá - SP</li>
+                            <li><a href="https://api.whatsapp.com/send/?phone=5511995574494&text&type=phone_number&app_absent=0"><img src="assets/img/telefone.png" alt="Icon telefone" class="telefone"></a>+55 11 99557-4494</li>
+                            <li><a href="mailto:contato@romaiap.com.br?"><img src="assets/img/email.png" alt="Icon email" class="email"></a>contato@romaiap.com.br</li>
+                            <li><a href="https://www.linkedin.com/company/romaiap/"><img src="assets/img/linkedin.png" alt="Icon linkedin" class="linkedin"></a>Romaiap</li>
+                            <li><a href="https://www.instagram.com/romaiap/"><img src="assets/img/instagram.png" alt="icon instagram" class="instagram"></a>@Romaiap</li>
                         </ul>
                     </div>
                 </div>
 
                 <!-- Botão -->
-                <div class="botao_cont">
-                    <a href="https://wa.me/5511998270294?text=Oii!%20Vi%20seu%20site.%20Voc%C3%AA%20poderia%20me%20falar%20mais%20sobre%20a%20Romaip?" class="cont_botao">Contato</a>
-                </div>
+                <a href="https://api.whatsapp.com/send/?phone=5511995574494&text&type=phone_number&app_absent=0" class="cont_botao"><button class="botao_cont">Contato</button> </a>
 
             </section>
 
@@ -327,9 +324,10 @@
         <footer>
             <p>Creator and owner of Romaip: <a href="https://www.linkedin.com/in/leoneide-bizerra-moreira-20153575/">Leoneide Bizerra Moreira</a></p>
             <p>Marketing and design: <a href="https://www.linkedin.com/in/mariana-bizerra-moreira-84a306153/">Mariana Bizerra Moreira</a></p>
-            <p>Developer: <a href="https://github.com/MarcusVBMoreira">Marcus V B Moreira</a></p>
+            <p>Website developer: <a href="https://github.com/MarcusVBMoreira">Marcus V B Moreira</a></p>
         </footer>
 
-
+        <!-- JS -->
+        <script src="assets/JavaScript/program.js"></script>
     </body>
 </html>
