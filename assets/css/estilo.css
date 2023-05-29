@@ -89,10 +89,12 @@ p{
 .itens_menu a{
     border-radius: 100%;
     padding: 1%;
+    transition: .5s;
 }
 
 .itens_menu a:hover{
     background-color: #11315b;
+    box-shadow: 0px 0px 15px rgba(56, 56, 56, 0.9);
 }
 
 .logo{
@@ -274,6 +276,8 @@ p{
     float: right;
     margin-top: 2%;
     border-radius: 25px;
+    box-shadow: 0px 0px 15px rgba(56, 56, 56, 0.9);
+    transition: .5s;
 }
 .botao_cont a{
     padding: 10%;
@@ -330,7 +334,7 @@ p{
 }
 
 
-/*Toast*/
+/* Container// Popap */
 ._toast{
     float: right;
     position: fixed;
@@ -373,17 +377,120 @@ p{
     padding-bottom: 0;
 }
 .botoes button{
- background-color: #11315b;
- border-radius: 10px;
+    background-color: #11315b;
+    border-radius: 10px;
 }
-.btn_sim{
-    margin-left: 15%;
+.btn_whats{
     padding: 3%;
-    padding-left: 6%;
-    padding-right: 6%;
-    margin-right: 15%;
     font-size: 1.3em;
+    transition: .5s;
 }
+.btn_whats:hover{
+    background-color: #869aaf;
+}
+.li image:hover{
+    list-style-image: url(assets/img/whatsapp2.png);
+}
+.img_whats{
+    width: 23%;
+    margin-right: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Container// Linha do tempo */
+.linha_do_tempo{
+    background-color: #869aaf;
+    padding-bottom: 2%;
+}
+
+
+.main-container{
+    background-color: #11315b;
+    border-radius: 35px;
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+}
+/*creating line for timeline*/
+.main-container::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    background-color: #ffdeac;
+    top:0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+/*Adjusting box of all content*/
+.text-wrapper{
+    padding: 10px 40px;
+    position: relative;
+    width:51%;
+    box-sizing: border-box;
+    margin: 50px 0;
+}
+.text-wrapper::after{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    right: -8px;
+    background-color:#ffbd59;
+    top:15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+/*for left events*/
+.left{
+    left: 0;
+}
+/*for right events*/
+.right{
+    left:50%;
+}
+.right::after{
+    left:-10px;
+}
+/*content box colour padding and radius for circular corner*/
+.content{
+    padding: 15px 15px 15px 17px;
+    background-color: #ffbd59;
+    border-radius: 4px;
+}
+/*setting text property of event heading*/
+.content h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #212121;
+    letter-spacing:1px;
+}
+/*setting text property of event content*/
+.content p{
+    color: #616161;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+
+
+
+
+
+
+
 
 /* Footer */
 footer{
