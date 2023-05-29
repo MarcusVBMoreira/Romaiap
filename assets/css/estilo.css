@@ -1,4 +1,4 @@
-/* Escruturas */
+/* VARIÁVEIS */
 :root{
     --Branco-cor: #fff;
     --BegeClaro-cor: #fffaf4;
@@ -8,11 +8,13 @@
     --AzulEscuro-cor: #11315b;
     --Cinza-cor: #869aaf;
 }
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/* PRINCIPAL: HTML, BODY */
 html{
     scroll-behavior: smooth;
     min-height: 100%;
 }
-
 body{
     width: 100%;
     min-height: 100vh;
@@ -20,23 +22,13 @@ body{
     flex-direction: column;
     background-color: var(--Bege-cor);
 }
-
-/*
-header{
-    
-}
-*/
-
-
-
-
-
-/* Escrita */
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/* ESCRITA */
 h1{
     font-family: 'League Spartan', sans-serif;
     font-size: 32px;
 }
-
 h2, a, button{
     font-family: 'Comfortaa', cursive;
     font-size: 1em;
@@ -44,7 +36,6 @@ h2, a, button{
     text-decoration: none;
     margin: 0;
 }
-
 h3{
     font-family: 'Comfortaa', cursive;
     color: black;
@@ -52,7 +43,6 @@ h3{
     margin: 0;
     font-size: 1em;
 }
-
 p{
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
@@ -60,13 +50,9 @@ p{
     text-indent: 15px;
     color: black;
 }
-
-
-
-
-
-
-/* Menu */
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/* MENU */
 .menu{
     position: fixed;
     z-index: 5;
@@ -77,94 +63,86 @@ p{
     flex-direction: row;
     width: 100%;
 }
-
 .itens_menu{
      text-align: right;
      display: inline;
      width: 85%;
 }
-
 .itens_menu li{
     display: inline;
     font-size: 25px;
     padding: 1%;
 }
-
 .itens_menu ul{
     padding: 1%;
     margin: 0%;
 }
-
 .itens_menu a{
     border-radius: 100%;
     padding: 1%;
     transition: .5s;
 }
-
-.itens_menu a:hover{
-    background-color: var(--AzulEscuro-cor);
-    box-shadow: 0px 0px 15px rgba(56, 56, 56, 0.9);
+.itens_menu button{
+    background-color: var(--AzulClaro-cor);
+    border: 0;
+    border-color: 0;
 }
-
+.itens_menu button:hover{
+    color:var(--Amarelo-cor);
+    font-size: 1.2em;
+}
 .logo{
-    width: 15%;
+    width: 13%;
 }
 
 .img_logo{
     width: 85%;
     padding-left: 5%;
 }
-
-
-
-
-
-/* Container// */
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/* CONTAINER */
 .container{
     width: 90%;;
     margin-top: 6%;
     margin-bottom: 2.5%;
     text-align: center;
 }
-
 .subtitulo{
     margin-bottom: 0;
 }
-
-/* Container// Carousel */
+/*------------------------------------------------------------------*/
+/*------------------------------------------------------------------*/
+/* CONTAINER // Carousel */
 .carousel{
     margin-bottom: 1%;
+    margin-top: -2%;
 }
-
-
-/* Container// Sobre */
+/*------------------------------------------------------------------*/
+/*------------------------------------------------------------------*/
+/* CONTAINER // Sobre */
 .sobre{
     padding: 2%;
     background-size: cover;
 }
-
 .sobre h1{
     font-size: 3em;
     text-align: center;
     padding: 0.5%;
 }
-
 .sobre h2{
     font-size: 1.5em;
     text-align: left;
     padding-top: 1%;
     padding-bottom: 0.2%;
 }
-
 .sobre p{
     font-size: 1em;
     color: black;
 }
-
 .corpo{
     padding-top: 1%;
 }
-
 .img_foto{
     width: 20%;
     float: left;
@@ -172,22 +150,19 @@ p{
     margin-right: 1%;
     margin-bottom: 1%;
 }
-
-
-
-/* Container// ajuda */
+/*------------------------------------------------------------------*/
+/*------------------------------------------------------------------*/
+/* CONTAINER // OPERAÇÃO */
 .operacao{
     padding: 2%;
     background-color: var(--Cinza-cor);
     margin-top: 1%;
 }
-
 .operacao h1{
     text-align: center;
     font-size: 3em;
     padding: 1%;
 }
-
 .operacao h2{
     font-size: 1.5em;
     text-align: left;
@@ -195,60 +170,231 @@ p{
     padding-bottom: 0.5%;
 
 }
-
 .operacao p{
     text-align: justify;
     font-size: 1em;
     color: black;
 }
-
+/*------------------------*/
+/*------------------------*/
+/* CONTAINER // OPERAÇÃO // AJUDA */
 .decimal li{
     list-style-type: decimal;
 }
-
 .disc{
     list-style-type: disc;
 }
-
 .img_check{
     width: 2%;
     float: left;
     padding-top: 0.5%;
 }
-
 .ajuda li{
     padding: 0;
     margin: 0;
 }
-
 .prazos li{
     list-style-type: disc;
 }
-
 .subtitulo1{
     margin-top: 1%;
 }
-
 .ajuda_h2{
     margin-top: 5%;
 }
-
 .lista_ajuda li{
     list-style-type: disc;
     margin-left: 2.5%;
 }
-
-
-/* Container// Funcionamento */
+/*------------------------------------------------------------------*/
+/*------------------------------------------------------------------*/
+/* CONTAINER // FUNCIONAMENTO */
 .funcionamento{
     margin-top: 3%;
 }
 .post6{
     width: 100%;
 }
+/*------------------------------------------------------------------*/
+/*------------------------------------------------------------------*/
+/* CONTAINER // LINHA DO TEMPO */
+.linha_do_tempo{
+    background-color: var(--Cinza-cor);
+    padding-bottom: 2%;
+}
+.main-container{
+    background-color: var(--AzulEscuro-cor);
+    border-radius: 35px;
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+}
+/*creating line for timeline*/
+.main-container::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    background-color: var(--Bege-cor);
+    top:0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+/*Adjusting box of all content*/
+.text-wrapper{
+    padding: 10px 40px;
+    position: relative;
+    width:51%;
+    box-sizing: border-box;
+    margin: 130px 0;
+}
+.text-wrapper::after{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    right: -8px;
+    background-color:var(--Amarelo-cor);
+    top:15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+/*for left events*/
+.left{
+    left: 0;
+}
+/*for right events*/
+.right{
+    left: 50%;
+}
+.right::after{
+    left:-10px;
+}
 
+/* Config geral do content/msg */
+.content{
+    padding: 15px 15px 15px 17px;
+    background-color: var(--Amarelo-cor);
+    border-radius: 15px;
+}
+.content p,h3{
+    padding: 1%;
+}
+.msg{
+    border-radius: 15px;
+}
+.msg p{
+    padding: 2%;
+}
+.msg h3{
+    padding: 2%;
+}
+.mensagem_header{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: var(--Cinza-cor);
+}
+.mensagem_body{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
 
-/* Container// Contato */
+/* Mensagem 1 + Animação */
+.mensagem1{
+    display: none;
+    animation-duration: 2s;
+    width: 35%;
+    position: absolute;
+    float: left;
+    margin-top: -25%;
+    margin-left: 50%;
+    background-color: #aacaf4;
+}
+[data-animation='move1'] {
+    animation: move1 2s;
+} 
+@keyframes move1 {
+    0% {
+        margin-left: 45%;
+    }
+    100% {
+        margin-left: 50%;
+    }
+}
+
+/* Mensagem 2 + Animação */
+.mensagem2{
+    display: none;
+    animation-duration: 2s;
+    width: 20%;
+    position: absolute;
+    float: right;
+    margin-top: -18%;
+    margin-right: 60%;
+    background-color: #aacaf4;
+}
+[data-animation='move2'] {
+    animation: move2 2s;
+} 
+@keyframes move2 {
+    0%{
+        margin-left: 21%;
+    }
+    100%{
+        margin-left: 13%;
+    }
+}
+
+/* Mensagem 3 + Animação */
+.mensagem3{
+    display: none;
+    animation-duration: 2s;
+    width: 20%;
+    position: absolute;
+    float: left;
+    margin-top: -18%;
+    margin-left: 57%;
+    background-color: #aacaf4;
+}
+[data-animation='move3'] {
+    animation: move3 2s;
+} 
+@keyframes move3 {
+    0% {
+        margin-left: 48%;
+    }
+    100% {
+        margin-left: 57%;
+    }
+}
+
+/* Mensagem 4 + Animação */
+.mensagem4{
+    display: none;
+    animation-duration: 2s;
+    width: 20%;
+    position: absolute;
+    margin-top: -18%;
+    float: right;
+    margin-left: 13%;
+    background-color: #aacaf4;
+}
+[data-animation='move4'] {
+    animation: move2 2s;
+} 
+@keyframes move2 {
+    0%{
+        margin-left: 21%;
+    }
+    100%{
+        margin-left: 13%;
+    }
+}
+/*------------------------------------------------------------------*/
+/*------------------------------------------------------------------*/
+/* CONTAINER // CONTATO */
 .contato{
     padding: 2%;
     margin-top: 1%;
@@ -342,9 +488,9 @@ p{
     width: 100%;
     margin: 1.5%;
 }
-
-
-/* Container// Popap */
+/*------------------------------------------------------------------*/
+/*------------------------------------------------------------------*/
+/* CONTAINER // POPAP */
 ._toast{
     float: right;
     position: fixed;
@@ -399,9 +545,6 @@ p{
 .btn_whats:hover{
     background-color: var(--Cinza-cor);
 }
-.li image:hover{
-    list-style-image: url(assets/img/whatsapp2.png);
-}
 .img_whats{
     width: 23%;
     margin-right: 5%;
@@ -411,99 +554,7 @@ p{
 
 
 
-
-
-
-
-
-
-/* Container// Linha do tempo */
-.linha_do_tempo{
-    background-color: var(--Cinza-cor);
-    padding-bottom: 2%;
-}
-
-
-.main-container{
-    background-color: var(--AzulEscuro-cor);
-    border-radius: 35px;
-    position: relative;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 5%;
-}
-/*creating line for timeline*/
-.main-container::after{
-    content: '';
-    position: absolute;
-    width: 10px;
-    background-color: var(--Bege-cor);
-    top:0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
-}
-/*Adjusting box of all content*/
-.text-wrapper{
-    padding: 10px 40px;
-    position: relative;
-    width:51%;
-    box-sizing: border-box;
-    margin: 50px 0;
-}
-.text-wrapper::after{
-    content: '';
-    position: absolute;
-    width: 30px;
-    height: 25px;
-    right: -8px;
-    background-color:var(--Amarelo-cor);
-    top:15px;
-    border-radius: 50%;
-    z-index: 1;
-}
-/*for left events*/
-.left{
-    left: 0;
-}
-/*for right events*/
-.right{
-    left:50%;
-}
-.right::after{
-    left:-10px;
-}
-/*content box colour padding and radius for circular corner*/
-.content{
-    padding: 15px 15px 15px 17px;
-    background-color: var(--Amarelo-cor);
-    border-radius: 4px;
-}
-/*setting text property of event heading*/
-.content h3{
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #212121;
-    letter-spacing:1px;
-}
-/*setting text property of event content*/
-.content p{
-    color: #616161;
-    font-weight: 300;
-    font-size: 18px;
-    margin-top: 2px;
-}
-
-
-
-
-
-
-
-
-
-/* Footer */
+/* FOOTER */
 footer{
     background-color: var(--AzulClaro-cor);
     padding: 2%;
@@ -523,31 +574,20 @@ footer a{
 }
 
 
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Responsividade do site */
-
-
-
-/* Main-width */
+/* RESPONSIVIDADE DO SITE */
+/* RESPONSIVIDADE DO SITE // MAIN-WIDTH */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
@@ -569,7 +609,7 @@ footer a{
 
 }
 
-/* Max-width */
+/* RESPONSIVIDADE DO SITE // MAX-WIDTH */
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -595,13 +635,8 @@ footer a{
 
 
 
-
-
-
-
-
-/* Responsive layout */
-
+/* RESPONSIVIDADE DO SITE // RESPONSIVE LAYOUT */
+/* RESPONSIVIDADE DO SITE // RESPONSIVE LAYOUT // entre 576px a 767px */
 @media (min-width: 576px) and (max-width: 767.98px){
     .logo{
         width: 25%;
@@ -650,11 +685,14 @@ footer a{
     }
 
     ._toast{
-        width: 20%;
+        width: 22%;
         margin-left: 62%;
         margin-top: 85%;
     }
 }
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/* RESPONSIVIDADE DO SITE // RESPONSIVE LAYOUT // entre 768px a 991px */
 @media (min-width: 768px) and (max-width: 991.98px){
     .logo{
         width: 20%;
@@ -711,7 +749,9 @@ footer a{
         margin-top: 60%;
     }
 }
-
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/* RESPONSIVIDADE DO SITE // RESPONSIVE LAYOUT // entre 992px a 1199px */
 @media (min-width: 992px) and (max-width: 1199.98px){
     .logo{
         width: 18%;
@@ -768,7 +808,9 @@ footer a{
         margin-top: 50%;
     }
 }
-
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/* RESPONSIVIDADE DO SITE // RESPONSIVE LAYOUT // entre 1200px a 1399px */
 @media (min-width: 1200px) and (max-width: 1399.98px){
     ._toast{
         width: 14%;
@@ -776,3 +818,5 @@ footer a{
         margin-top: 30%;
     }
 }
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/

@@ -42,9 +42,9 @@
                 <!-- Itens menu -->
                 <nav class="itens_menu">
                     <ul>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#operacao">Operação</a></li>
-                        <li><a href="#contato">Contato</a></li>
+                        <li><a href="#sobre"><button type="button" class="btn_nav">Sobre</button></a></li>
+                        <li><a href="#operacao"><button type="button" class="btn_nav">Operação</button></a></li>
+                        <li><a href="#contato"><button type="button" class="btn_nav">Contato</button></a></li>
                     </ul>
                 </nav>
 
@@ -266,33 +266,65 @@
                     <!-- event 1st of timeline -->
                     <div class="text-wrapper left">
                         <!-- all text content of timeline -->
-                        <div class="content">
-                            <h3>one</h3>
+                        <div class="content" onmouseover="showMessage1()" onmouseout="hideMessage1()">
+                            <h3>ONE</h3>
                             <p>Some stuff</p>
+                        </div>
+                    </div>
+                    <div class="mensagem1 msg" data-animation="move1" onClick="this.removeAttribute('data-animation')">
+                        <div class="mensagem_header msg1_header">
+                            <h3>ONE</h3>
+                        </div>
+                        <div class="mensagem_body msg1_body">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae distinctio rerum, consequuntur suscipit debitis fuga quas harum iste nisi! Ullam adipisci consequatur consequuntur laborum ipsum iure aperiam, sequi totam assumenda.</p>
                         </div>
                     </div>
                     <!-- event 1st of timeline -->
                     <div class="text-wrapper right">
                         <!-- all text content of timeline -->
-                        <div class="content">
-                            <h3>two</h3>
+                        <div class="content" onmouseover="showMessage2()" onmouseout="hideMessage2()">
+                            <h3>TWO</h3>
                             <p>Some stuff</p>
+                        </div>
+                    </div>
+                    <div class="mensagem2 msg" data-animation="move2" onClick="this.removeAttribute('data-animation')">
+                        <div class="mensagem_header msg2_header">
+                            <h3>TWO</h3>
+                        </div>
+                        <div class="mensagem_body msg2_body">
+                            <p>Olá</p>
                         </div>
                     </div>
                     <!-- event 1st of timeline -->
                     <div class="text-wrapper left">
                         <!-- all text content of timeline -->
-                        <div class="content">
-                            <h3>three</h3>
+                        <div class="content" onmouseover="showMessage3()" onmouseout="hideMessage3()">
+                            <h3>THREE</h3>
                             <p>Some Stuff</p>
+                        </div>
+                    </div>
+                    <div class="mensagem3 msg" data-animation="move3" onClick="this.removeAttribute('data-animation')">
+                        <div class="mensagem_header msg3_header">
+                            <h3>THREE</h3>
+                        </div>
+                        <div class="mensagem_body msg3_body">
+                            <p>Olá</p>
                         </div>
                     </div>
                     <!-- event 1st of timeline -->
                     <div class="text-wrapper right">
                         <!-- all text content of timeline -->
-                        <div class="content">
-                            <h3>four</h3>
+                        <div class="content" onmouseover="showMessage4()" onmouseout="hideMessage4()">
+                            <h3>FOUR</h3>
                             <p>Some stuff</p>
+                        </div>
+                    </div>
+                    <div class="mensagem4 msg" data-animation="move4" onClick="this.removeAttribute('data-animation')">
+                        <div class="mensagem_header msg4_header">
+                            <h3>FUOR</h3>
+                        </div>
+                        <div class="mensagem_body msg4_body">
+                            <p>Olá</p>
                         </div>
                     </div>
                 </div>
