@@ -1,4 +1,13 @@
 /* Escruturas */
+:root{
+    --Branco-cor: #fff;
+    --BegeClaro-cor: #fffaf4;
+    --Bege-cor: #ffdeac;
+    --Amarelo-cor: #ffbd59;
+    --AzulClaro-cor: #aacaf4;
+    --AzulEscuro-cor: #11315b;
+    --Cinza-cor: #869aaf;
+}
 html{
     scroll-behavior: smooth;
     min-height: 100%;
@@ -9,7 +18,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #ffdeac;
+    background-color: var(--Bege-cor);
 }
 
 /*
@@ -62,7 +71,7 @@ p{
     position: fixed;
     z-index: 5;
     width: 100%;
-    background-color: #aacaf4;
+    background-color: var(--AzulClaro-cor);
     text-align: center;
     display: inline-flex;
     flex-direction: row;
@@ -93,7 +102,7 @@ p{
 }
 
 .itens_menu a:hover{
-    background-color: #11315b;
+    background-color: var(--AzulEscuro-cor);
     box-shadow: 0px 0px 15px rgba(56, 56, 56, 0.9);
 }
 
@@ -169,7 +178,7 @@ p{
 /* Container// ajuda */
 .operacao{
     padding: 2%;
-    background-color: #869aaf;
+    background-color: var(--Cinza-cor);
     margin-top: 1%;
 }
 
@@ -243,7 +252,7 @@ p{
 .contato{
     padding: 2%;
     margin-top: 1%;
-    background-color: #fffaf4;
+    background-color: var(--BegeClaro-cor);
     padding-bottom: 7%;
 }
 
@@ -269,7 +278,7 @@ p{
 }
 
 .botao_cont{
-    background-color: #11315b;
+    background-color: var(--AzulEscuro-cor);
     width: 10%;
     padding: 1%;
     text-align: center;
@@ -281,11 +290,12 @@ p{
 }
 .botao_cont a{
     padding: 10%;
-    color: #ffffff;
 }
-
+.botao_cont{
+    color: var(--Branco-cor);
+}
 .botao_cont:hover{
-    background-color: #ffbd59;
+    background-color: var(--Amarelo-cor);
 }
 
 .imgs{
@@ -344,9 +354,9 @@ p{
     text-align: center;
     margin-top: 33%;
     margin-left: 71%;
-    background-color: #ffbd59;
+    background-color: var(--Amarelo-cor);
     border-radius: 10px;
-    box-shadow: 0px 0px 15px rgba(56, 56, 56, 0.9);
+    box-shadow: 0px 0px 15px var(--AzulEscuro-cor);
     display: block;
 }
 .txt{
@@ -377,16 +387,17 @@ p{
     padding-bottom: 0;
 }
 .botoes button{
-    background-color: #11315b;
+    background-color: var(--AzulEscuro-cor);
     border-radius: 10px;
 }
 .btn_whats{
     padding: 3%;
     font-size: 1.3em;
     transition: .5s;
+    color: var(--Branco-cor);
 }
 .btn_whats:hover{
-    background-color: #869aaf;
+    background-color: var(--Cinza-cor);
 }
 .li image:hover{
     list-style-image: url(assets/img/whatsapp2.png);
@@ -408,13 +419,13 @@ p{
 
 /* Container// Linha do tempo */
 .linha_do_tempo{
-    background-color: #869aaf;
+    background-color: var(--Cinza-cor);
     padding-bottom: 2%;
 }
 
 
 .main-container{
-    background-color: #11315b;
+    background-color: var(--AzulEscuro-cor);
     border-radius: 35px;
     position: relative;
     width: 90%;
@@ -427,7 +438,7 @@ p{
     content: '';
     position: absolute;
     width: 10px;
-    background-color: #ffdeac;
+    background-color: var(--Bege-cor);
     top:0;
     bottom: 0;
     left: 50%;
@@ -447,7 +458,7 @@ p{
     width: 30px;
     height: 25px;
     right: -8px;
-    background-color:#ffbd59;
+    background-color:var(--Amarelo-cor);
     top:15px;
     border-radius: 50%;
     z-index: 1;
@@ -466,7 +477,7 @@ p{
 /*content box colour padding and radius for circular corner*/
 .content{
     padding: 15px 15px 15px 17px;
-    background-color: #ffbd59;
+    background-color: var(--Amarelo-cor);
     border-radius: 4px;
 }
 /*setting text property of event heading*/
@@ -494,7 +505,7 @@ p{
 
 /* Footer */
 footer{
-    background-color: #aacaf4;
+    background-color: var(--AzulClaro-cor);
     padding: 2%;
     margin-top: auto;
 }
@@ -506,7 +517,7 @@ footer p{
 }
 
 footer a{
-    color: #11315b;
+    color: var(--AzulEscuro-cor);
     font-size: 0.9em;
     text-decoration: none;
 }

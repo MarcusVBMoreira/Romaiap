@@ -1,12 +1,12 @@
 CORES:
 
 #ffffff
-#fffaf4
-#11315b
-#ffbd59
-#869aaf
-#ffdeac
-#aacaf4
+var(--BegeClaro-cor)
+var(--AzulEscuro-cor)
+var(--Amarelo-cor)
+var(--Cinza-cor)
+var(--Bege-cor)
+var(--AzulClaro-cor)
 
 
 FONTES:
