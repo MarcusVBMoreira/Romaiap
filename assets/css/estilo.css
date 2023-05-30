@@ -272,7 +272,8 @@ p{
 .right::after{
     left:-10px;
 }
-
+/*------------------------*/
+/*------------------------*/
 /* Config geral do content/msg */
 .content{
     padding: 15px 15px 15px 17px;
@@ -401,28 +402,24 @@ p{
     background-color: var(--BegeClaro-cor);
     padding-bottom: 7%;
 }
-
 .contato h1{
     font-size: 3em;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 0;
 }
-
 .contato h2{
     font-size: 1.5em;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
 }
-
 .contato p{
     font-size: 1em;
     text-align: center;
     margin-bottom: 3%;
     color: black;
 }
-
 .botao_cont{
     background-color: var(--AzulEscuro-cor);
     width: 10%;
@@ -443,47 +440,38 @@ p{
 .botao_cont:hover{
     background-color: var(--Amarelo-cor);
 }
-
 .imgs{
     text-align: center;
 }
-
 .img_checks{
     width: 50%;
     float: left;
 }
-
 .logo_1{
     width: 30%;
     float: right;
     margin-right: 7%;
 }
-
 .sociais{
     padding-top: 30%;
 }
-
 .telefone{
     width: 5%;
     margin-right: 1%;
     
 }
-
 .email{
     width: 5%;
     margin-right: 1%;
 }
-
 .linkedin{
     width: 5%;
     margin-right: 1%;
 }
-
 .instagram{
     width: 5%;
 
 }
-
 .icons li{
     width: 100%;
     margin: 1.5%;
@@ -549,11 +537,8 @@ p{
     width: 23%;
     margin-right: 5%;
 }
-
-
-
-
-
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
 /* FOOTER */
 footer{
     background-color: var(--AzulClaro-cor);
@@ -636,54 +621,123 @@ footer a{
 
 
 /* RESPONSIVIDADE DO SITE // RESPONSIVE LAYOUT */
+/* RESPONSIVIDADE DO SITE // RESPONSIVE LAYOUT // entre 300px a 575px */
+@media (min-width: 300px) and (max-width:575.98px){
+    .logo{
+        width: 25%;
+    }
+    .itens_menu{
+        width: 75%;
+        margin: 0;
+    }
+    .itens_menu ul{
+        margin: 0;
+        padding: 0;
+    }
+    .itens_menu a{
+        padding-top: 0;
+    }
+    .itens_menu button{
+        font-size: 0.4em;
+    }
+    .itens_menu button:hover{
+        font-size: 0.5em;
+    }
+    .img_logo{
+        width: 98%;
+        padding: 1%;
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        padding-top: 10%;
+    }
+    .sobre{
+        margin-top: 5%;
+    }
+    .ajuda ul{
+        margin-left: 0;
+        padding-left: 0.7%;
+    }
+    .img_check{
+        width: 5%;
+        margin-top: 1%;
+    }
+    .ajuda p{
+        margin-right: 1%;
+    }
+    .prazos p{
+        margin-right: 1%;
+    }
+    .contato{
+        padding-bottom: 15%;
+    }
+    .botao_cont{
+        width: 30%;
+    }
+    ._toast{
+        width: 35%;
+        margin-left: 55%;
+        margin-top: 95%;
+    }
+    .telefone{
+        width: 15%;
+        margin-right: 1%;
+    }
+    .email{
+        width: 15%;
+        margin-right: 1%;
+    }
+    .linkedin{
+        width: 15%;
+        margin-right: 1%;
+    }
+    .instagram{
+        width: 15%;
+    }
+    .content{
+        padding: 120%;
+    }
+}
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
 /* RESPONSIVIDADE DO SITE // RESPONSIVE LAYOUT // entre 576px a 767px */
 @media (min-width: 576px) and (max-width: 767.98px){
     .logo{
         width: 25%;
     }
-
     .itens_menu{
         width: 75%;
     }
-
     .img_logo{
         width: 85%;
     }
-
     .container{
         padding-top: 3%;
     }
-
     .sobre{
         margin-top: 5%;
     }
-
     .ajuda ul{
         margin-left: 0;
         padding-left: 0.7%;
     }
-
     .img_check{
         width: 5%;
         margin-top: 1%;
     }
-
     .ajuda p{
         margin-right: 1%;
     }
-
     .prazos p{
         margin-right: 1%;
     }
-
     .contato{
         padding-bottom: 10%;
     }
-
     .botao_cont{
         width: 20%;
     }
-
     ._toast{
         width: 22%;
         margin-left: 62%;
@@ -697,49 +751,38 @@ footer a{
     .logo{
         width: 20%;
     }
-
     .itens_menu{
         width: 80%;
     }
-
     .img_logo{
         width: 85%;
     }
-
     .container{
         padding-top: 2%;
     }
-
     .sobre{
         margin-top: 3%;
     }
-
     .ajuda ul{
         margin-left: 0;
         padding-left: 0.7%;
     }
-
     .img_check{
         width: 3%;
         margin-top: 0.7%;
     }
-
     .ajuda p{
         margin-right: 1%;
     }
-
     .prazos p{
         margin-right: 1%;
     }
-
     .proposta{
         width: 40%;
     }
-
     .contato{
         padding-bottom: 10%;
     }
-
     .botao_cont{
         width: 15%;
     }
@@ -756,49 +799,38 @@ footer a{
     .logo{
         width: 18%;
     }
-
     .itens_menu{
         width: 82%;
     }
-
     .img_logo{
         width: 85%;
     }
-
     .container{
         padding-top: 1%;
     }
-
     .sobre{
         margin-top: 1%;
     }
-
     .ajuda ul{
         margin-left: 0;
         padding-left: 0.7%;
     }
-
     .img_check{
         width: 2%;
         margin-top: 0.4%;
     }
-
     .ajuda p{
         margin-right: 1%;
     }
-
     .prazos p{
         margin-right: 1%;
     }
-
     .proposta{
         width: 40%;
     }
-
     .contato{
         padding-bottom: 8%;
     }
-
     .botao_cont{
         width: 12%;
     }
