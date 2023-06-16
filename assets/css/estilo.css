@@ -104,8 +104,6 @@ p{
 /* CONTAINER */
 .container{
     width: 90%;;
-    margin-top: 6%;
-    margin-bottom: 2.5%;
     text-align: center;
 }
 .subtitulo{
@@ -115,13 +113,14 @@ p{
 /*------------------------------------------------------------------*/
 /* CONTAINER // Carousel */
 .carousel{
+    margin-top: 4%;
     margin-bottom: 1%;
-    margin-top: -2%;
 }
 /*------------------------------------------------------------------*/
 /*------------------------------------------------------------------*/
 /* CONTAINER // Sobre */
 .sobre{
+    border-radius: 20px;
     padding: 2%;
     background-size: cover;
 }
@@ -154,6 +153,8 @@ p{
 /*------------------------------------------------------------------*/
 /* CONTAINER // OPERAÇÃO */
 .operacao{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     padding: 2%;
     background-color: var(--Cinza-cor);
     margin-top: 1%;
@@ -219,6 +220,8 @@ p{
 /*------------------------------------------------------------------*/
 /* CONTAINER // LINHA DO TEMPO */
 .linha_do_tempo{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     background-color: var(--Cinza-cor);
     padding-bottom: 2%;
 }
@@ -235,7 +238,7 @@ p{
 .main-container::after{
     content: '';
     position: absolute;
-    width: 10px;
+    width: 1%;
     background-color: var(--Bege-cor);
     top:0;
     bottom: 0;
@@ -244,20 +247,21 @@ p{
 }
 /*Adjusting box of all content*/
 .text-wrapper{
-    padding: 10px 40px;
+    padding-right: 4%;
+    padding-left: 4%;
     position: relative;
     width:51%;
     box-sizing: border-box;
-    margin: 130px 0;
+    margin-bottom: 20%;
 }
 .text-wrapper::after{
     content: '';
     position: absolute;
-    width: 30px;
-    height: 25px;
-    right: -8px;
+    width: 5%;
+    height: 40%;
+    right: -1%;
     background-color:var(--Amarelo-cor);
-    top:15px;
+    top: 10%;
     border-radius: 50%;
     z-index: 1;
 }
@@ -270,13 +274,13 @@ p{
     left: 50%;
 }
 .right::after{
-    left:-10px;
+    left:-2%;
 }
 /*------------------------*/
 /*------------------------*/
 /* Config geral do content/msg */
 .content{
-    padding: 15px 15px 15px 17px;
+    padding: 1%;
     background-color: var(--Amarelo-cor);
     border-radius: 15px;
 }
@@ -397,6 +401,7 @@ p{
 /*------------------------------------------------------------------*/
 /* CONTAINER // CONTATO */
 .contato{
+    border-radius: 20px;
     padding: 2%;
     margin-top: 1%;
     background-color: var(--BegeClaro-cor);
@@ -440,25 +445,15 @@ p{
 .botao_cont:hover{
     background-color: var(--Amarelo-cor);
 }
-.imgs{
-    text-align: center;
-}
-.img_checks{
-    width: 50%;
-    float: left;
-}
 .logo_1{
     width: 30%;
-    float: right;
-    margin-right: 7%;
 }
 .sociais{
-    padding-top: 30%;
+    padding-top: 0%;
 }
-.telefone{
+.whats{
     width: 5%;
     margin-right: 1%;
-    
 }
 .email{
     width: 5%;
@@ -470,7 +465,6 @@ p{
 }
 .instagram{
     width: 5%;
-
 }
 .icons li{
     width: 100%;
@@ -480,14 +474,12 @@ p{
 /*------------------------------------------------------------------*/
 /* CONTAINER // POPAP */
 ._toast{
-    float: right;
     position: fixed;
+    bottom: 2%;
+    right: 2%;
     z-index: 5;
     padding: 1%;
     width: 12%;
-    text-align: center;
-    margin-top: 33%;
-    margin-left: 71%;
     background-color: var(--Amarelo-cor);
     border-radius: 10px;
     box-shadow: 0px 0px 15px var(--AzulEscuro-cor);
@@ -542,17 +534,24 @@ p{
 /* FOOTER */
 footer{
     background-color: var(--AzulClaro-cor);
-    padding: 2%;
-    margin-top: auto;
+    padding: 0.8%;
+    margin-top: 1%;
 }
-
-footer p{
+.creditos{
+    height: auto;
+    line-height: auto;
     text-align: center;
-    font-size: 1em;
+    justify-content: center;
+    margin-bottom: 1%;
+    display: block;
+}
+.creditos p{
+    text-align: center;
+    font-size: 0.8em;
     color: black;
 }
 
-footer a{
+.creditos a{
     color: var(--AzulEscuro-cor);
     font-size: 0.9em;
     text-decoration: none;
@@ -649,11 +648,12 @@ footer a{
         margin: 0;
         padding: 0;
     }
-    .container{
-        padding-top: 10%;
+    .carousel{
+        margin-top: 10%;
+        width: 100%;
     }
-    .sobre{
-        margin-top: 5%;
+    .container{
+        width: 98%;
     }
     .ajuda ul{
         margin-left: 0;
@@ -676,24 +676,7 @@ footer a{
         width: 30%;
     }
     ._toast{
-        width: 35%;
-        margin-left: 55%;
-        margin-top: 95%;
-    }
-    .telefone{
-        width: 15%;
-        margin-right: 1%;
-    }
-    .email{
-        width: 15%;
-        margin-right: 1%;
-    }
-    .linkedin{
-        width: 15%;
-        margin-right: 1%;
-    }
-    .instagram{
-        width: 15%;
+        width: 25%;
     }
     .content{
         padding: 120%;
@@ -712,11 +695,8 @@ footer a{
     .img_logo{
         width: 85%;
     }
-    .container{
-        padding-top: 3%;
-    }
-    .sobre{
-        margin-top: 5%;
+    .carousel{
+        margin-top: 8.2%;
     }
     .ajuda ul{
         margin-left: 0;
@@ -740,8 +720,6 @@ footer a{
     }
     ._toast{
         width: 22%;
-        margin-left: 62%;
-        margin-top: 85%;
     }
 }
 /*-----------------------------------------------------------------------------------*/
@@ -757,11 +735,8 @@ footer a{
     .img_logo{
         width: 85%;
     }
-    .container{
-        padding-top: 2%;
-    }
-    .sobre{
-        margin-top: 3%;
+    .carousel{
+        margin-top: 5%;
     }
     .ajuda ul{
         margin-left: 0;
@@ -788,8 +763,6 @@ footer a{
     }
     ._toast{
         width: 18%;
-        margin-left: 67%;
-        margin-top: 60%;
     }
 }
 /*-----------------------------------------------------------------------------------*/
@@ -802,8 +775,14 @@ footer a{
     .itens_menu{
         width: 82%;
     }
+    .carousel{
+        margin-bottom: 0;
+    }
     .img_logo{
         width: 85%;
+    }
+    .carousel{
+        margin-top: 5%;
     }
     .container{
         padding-top: 1%;
@@ -836,8 +815,6 @@ footer a{
     }
     ._toast{
         width: 17%;
-        margin-left: 70%;
-        margin-top: 50%;
     }
 }
 /*-----------------------------------------------------------------------------------*/
@@ -846,8 +823,6 @@ footer a{
 @media (min-width: 1200px) and (max-width: 1399.98px){
     ._toast{
         width: 14%;
-        margin-left: 76%;
-        margin-top: 30%;
     }
 }
 /*-----------------------------------------------------------------------------------*/

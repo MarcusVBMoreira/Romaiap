@@ -13,17 +13,17 @@ function ClicarClose(){
 /* Imgs contato */
 /* Imgs contato / Telefone */
 function mouseEmCimaTelefone(imagem) {
-    imagem.src='assets/img/telefone1.png'
+    imagem.src='assets/img/whatsapp_1.png'
 }
     
  function mouseForaTelefone(imagem) {
-    imagem.src='assets/img/telefone.png'
+    imagem.src='assets/img/whatsapp.png'
 }
 
 
 /* Imgs contato / Email */
 function mouseEmCimaEmail(imagem) {
-    imagem.src='assets/img/gmail.png'
+    imagem.src='assets/img/email_1.png'
 }
     
  function mouseForaEmail(imagem) {
@@ -33,7 +33,7 @@ function mouseEmCimaEmail(imagem) {
 
 /* Imgs contato / Linkedin */
 function mouseEmCimaLinkedin(imagem) {
-    imagem.src='assets/img/linkedin1.png'
+    imagem.src='assets/img/linkedin_1.png'
 }
     
  function mouseForaLinkedin(imagem) {
@@ -43,7 +43,7 @@ function mouseEmCimaLinkedin(imagem) {
 
 /* Imgs contato / Instagram */
 function mouseEmCimaInstagram(imagem) {
-    imagem.src='assets/img/instagram1.png'
+    imagem.src='assets/img/instagram_1.png'
 }
     
  function mouseForaInstagram(imagem) {
