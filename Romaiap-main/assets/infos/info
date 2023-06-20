@@ -1,0 +1,16 @@
+CORES:
+
+#ffffff
+var(--BegeClaro-cor)
+var(--AzulEscuro-cor)
+var(--Amarelo-cor)
+var(--Cinza-cor)
+var(--Bege-cor)
+var(--AzulClaro-cor)
+
+
+FONTES:
+
+Título League Spartan, 32
+Subtítulo Comfortaa Light, 18
+Corpo, Open Sans Light, 12

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+    <!-- Head -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Romaiap</title>
+
+        <!-- Reset -->
+        <link rel="stylesheet" href="assets/css/reset.css">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="assets/img/7.png" type="image/x-icon">
+
+        <!-- CSS --> 
+        <link rel="stylesheet" href="assets/css/estilo.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-61YYNBQHM3"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-61YYNBQHM3');
+        </script>
+    </head>
+
+    <!-- Body -->
+    <body>
+        <!-- Mneu -->
+        <header>
+            <div class="menu">
+
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="#"><img class="img_logo" src="assets/img/3-3.png" alt="Logo da Romaiap"></a>
+                </div>
+
+                <!-- Itens menu -->
+                <nav class="itens_menu">
+                    <ul>
+                        <li><a href="#sobre"><button type="button" class="btn_nav">Sobre</button></a></li>
+                        <li><a href="#operacao"><button type="button" class="btn_nav">Operação</button></a></li>
+                        <li><a href="#contato"><button type="button" class="btn_nav">Contato</button></a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+        <!-- Popap -->
+        <section class="toast_">
+            <div class="_toast" id="_toast">
+                <div>
+                    <button type="button" id="btn-close" class="btn-close"></button>
+                    <div class="txt">
+                        <p>Deseja entrar em contato?</p> 
+                    </div>
+                    <ul class="botoes">
+                        <li class="li">
+                            <a href="https://api.whatsapp.com/send/?phone=5511995574494&text&type=phone_number&app_absent=0" class="whats_btn" target="_blank"><button type="button" class="btn_whats"><img src="assets/img/whatsapp 1.png" class="img_whats" alt="">WhatsApp</button></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Carousel -->
+        <section class="carousel_" id="carousel_">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/post_10.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/post_11.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/post_12.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/post_13.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" style="background-image: url(assets/img/left-arrow.png);" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" style="background-image: url(assets/img/right-arrow.png);" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Sobre -->
+            <section class="sobre" id="sobre" style="background-image: url('assets/img/armazem.png');">
+
+                <!-- Título -->
+                <div class="titulo">
+                    <h1>Sobre</h1>
+                </div>
+
+                <!-- Subtítulo -->
+                <div class="subtitulo">
+                    <h2>Quem sou eu?</h2>
+                </div>
+
+                <!-- Corpo -->
+                <div class="corpo">
+                    <p>Eu sou a Leoneide Bizerra Moreira, criadora e fundadora da Romaiap.</p>
+                    <p>Tenho 18 anos de experiência na área de OPME, liderei diversas equipes, implantei novas operações, criei fluxose layouts para que a operação se tornasse cada vez mais eficaz, assertiva e segura, mantendo a qualidade e o foco no cliente. </p>
+                    <p>Desenvolvi um método de perfil de cirurgia dentro do ERP que eliminou os erros nos envios de material.</p>
+                    <p>Criei fluxos organizacionais que garantiram uma acurácia no inventário superior a 99,7%.</p>
+                </div>
+            </section>
+
+            <!-- Missão, Visão e Valores -->
+            <section class="MVV_">
+                <div class="MVV">
+                    <!-- Missão -->
+                    <div class="card_ missao">
+                        <div class="card_content">
+                            <div class="frente">
+                                <div class="card_titulo card_frente_titulo">
+                                    <H3>Missão</H3>
+                                </div>
+                                <div class="card_corpo card_frente_corpo">
+                                    <p>
+                                        teste
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="atras">
+                                <div class="card_titulo card_atras_titulo">
+                                    <h3>Missão</h3>
+                                </div>
+                                <div class="card_corpo card_corpo_atras">
+                                    <p>Oferecer serviços de consultoria especializada para empresas do segmento de OPME, visando 
+                                        proporcionar-lhes uma operação eficaz e assertiva a fim de minimizar falhas durante as operações, 
+                                        aprimorando processos e garantindo o sucesso de nossos clientes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Visão -->
+                    <div class="card_ vissao">
+                        <div class="card_content">
+                            <div class="frente">
+                                <div class="card_titulo card_frente_titulo">
+                                    <H3>Visão</H3>
+                                </div>
+                                <div class="card_corpo card_frente_corpo">
+                                    <p>
+                                        teste
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="atras">
+                                <div class="card_titulo card_atras_titulo">
+                                    <h3>Visão</h3>
+                                </div>
+                                <div class="card_corpo card_corpo_atras">
+                                    <p>Oferecer serviços de consultoria especializada para empresas do segmento de OPME, visando 
+                                        proporcionar-lhes uma operação eficaz e assertiva a fim de minimizar falhas durante as operações, 
+                                        aprimorando processos e garantindo o sucesso de nossos clientes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Valores -->
+                    <div class="card_ valores">
+                        <div class="card_content">
+                            <div class="frente">
+                                <div class="card_titulo card_frente_titulo">
+                                    <H3>Valores</H3>
+                                </div>
+                                <div class="card_corpo card_frente_corpo">
+                                    <p>
+                                        teste
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="atras">
+                                <div class="card_titulo card_atras_titulo">
+                                    <h3>Valores</h3>
+                                </div>
+                                <div class="card_corpo card_corpo_atras">
+                                    <p>Oferecer serviços de consultoria especializada para empresas do segmento de OPME, visando 
+                                        proporcionar-lhes uma operação eficaz e assertiva a fim de minimizar falhas durante as operações, 
+                                        aprimorando processos e garantindo o sucesso de nossos clientes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Operação -->
+            <section class="operacao" id="operacao">
+
+                <!-- Título -->
+                <div class="titulo">
+                    <h1>Operação</h1>
+                </div>
+
+                <section class="atividades_chaves">
+                    <!-- Subtítulo 1 -->
+                    <div class="subtitulo1">
+                        <h2>Como podemos te ajudar</h2>
+                    </div>
+
+                    <!-- Corpo 1 -->
+                    <div class="corpo">
+                        <div class="accordion_">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <li>Elaboração do Fluxo de toda a cadeia operacional para atendimento das cirurgias:</li>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body decimal">
+                                        <ul>
+                                            <li><P>Recebimento da solicitação da cirurgia;</P></li>
+                                            <li><P>Envio da cotação para a Operadora/Hospital;</P></li>
+                                            <li><P>Folow-up da cotação;</P></li>
+                                            <li><P>Aprovação da cotação/agendamento;</P></li>
+                                            <li><P>Separação do material pela área operacional; </P></li>
+                                            <li><P>Entrega do material;</P></li>
+                                            <li><P>Logística reversa;</P></li>
+                                            <li><P>Conferência, identificação dos itens consumidos, reposição e higienização do material;</P></li>
+                                            <li><P>Reports e tratativas das RNCs; </P></li>
+                                            <li><P>Pós cirúrgico e faturamento;  </P></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                <h2 class="accordion-header disc" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <li class="li_h2">Elaboração do fluxo de recebimento de produtos novos:</li> 
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body decimal">
+                                        <ul>
+                                            <li><p>Inspeção de recebimento;</p></li>
+                                            <li><p>Rotulagem;</p></li>
+                                            <li><p>Montagem e cadastro de Kits</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                <h2 class="accordion-header disc" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <li>Assessorando seu inventário Cíclico e Geral:</li> 
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body decimal">
+                                        <ul>
+                                            <li><p>Organização do estoque para o inventário;</p></li>
+                                            <li><p>Criação do fluxo para a execução do inventário;</p></li>
+                                            <li><p>Acompanhamento e monitoramento; </p></li>
+                                            <li><p>Relatórios gerenciais demonstrando a acuracidade; </p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header disc" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <li class="li_h2">Treinamento</li>
+                                    </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Treinar a equipe para que esteja aptos para executar todas as etapas das operações;</p>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header disc" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        <li class="li_h2">Elaboração do Fluxo</li> 
+                                    </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Elaboração do Fluxo Fiscal junto ao ERP.</p>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header disc" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <li class="li_h2">Criando relatórios</li> 
+                                    </button>
+                                    </h2>
+                                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Criando relatórios gerenciais em formato de BI para melhor visibilidade da sua operação;.</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- IMG -->
+                <section class="funcionamento" id="funcionamento">
+                    <div>
+                        <img src="assets/img/post_6.png" alt="Como podemos te ajudar" class="post6">
+                    </div>
+                </section>
+
+            </section>
+
+
+            <!-- Linha do tempo -->
+            <section class="linha_do_tempo" id="linha_do_tempo">
+
+                <!-- Título -->
+                <div class="titulo">
+                    <h1>Linha do tempo</h1>
+                </div>
+
+                <!-- Corpo -->
+                <div class="main-container">
+                    <!-- event 1st of timeline -->
+                    <div class="text-wrapper left">
+                        <!-- all text content of timeline -->
+                        <div class="content" onmouseover="showMessage1()" onmouseout="hideMessage1()">
+                            <h3>ONE</h3>
+                            <p>Some stuff</p>
+                        </div>
+                    </div>
+                    <div class="mensagem1 msg" data-animation="move1" onClick="this.removeAttribute('data-animation')">
+                        <div class="mensagem_header msg1_header">
+                            <h3>ONE</h3>
+                        </div>
+                        <div class="mensagem_body msg1_body">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae distinctio rerum, consequuntur suscipit debitis fuga quas harum iste nisi! Ullam adipisci consequatur consequuntur laborum ipsum iure aperiam, sequi totam assumenda.</p>
+                        </div>
+                    </div>
+                    <!-- event 1st of timeline -->
+                    <div class="text-wrapper right">
+                        <!-- all text content of timeline -->
+                        <div class="content" onmouseover="showMessage2()" onmouseout="hideMessage2()">
+                            <h3>TWO</h3>
+                            <p>Some stuff</p>
+                        </div>
+                    </div>
+                    <div class="mensagem2 msg" data-animation="move2" onClick="this.removeAttribute('data-animation')">
+                        <div class="mensagem_header msg2_header">
+                            <h3>TWO</h3>
+                        </div>
+                        <div class="mensagem_body msg2_body">
+                            <p>Olá</p>
+                        </div>
+                    </div>
+                    <!-- event 1st of timeline -->
+                    <div class="text-wrapper left">
+                        <!-- all text content of timeline -->
+                        <div class="content" onmouseover="showMessage3()" onmouseout="hideMessage3()">
+                            <h3>THREE</h3>
+                            <p>Some Stuff</p>
+                        </div>
+                    </div>
+                    <div class="mensagem3 msg" data-animation="move3" onClick="this.removeAttribute('data-animation')">
+                        <div class="mensagem_header msg3_header">
+                            <h3>THREE</h3>
+                        </div>
+                        <div class="mensagem_body msg3_body">
+                            <p>Olá</p>
+                        </div>
+                    </div>
+                    <!-- event 1st of timeline -->
+                    <div class="text-wrapper right">
+                        <!-- all text content of timeline -->
+                        <div class="content" onmouseover="showMessage4()" onmouseout="hideMessage4()">
+                            <h3>FOUR</h3>
+                            <p>Some stuff</p>
+                        </div>
+                    </div>
+                    <div class="mensagem4 msg" data-animation="move4" onClick="this.removeAttribute('data-animation')">
+                        <div class="mensagem_header msg4_header">
+                            <h3>FUOR</h3>
+                        </div>
+                        <div class="mensagem_body msg4_body">
+                            <p>Olá</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            <!-- Contato -->
+            <section class="contato" id="contato">
+
+                <!-- Título -->
+                <div class="titulo">
+                    <h1>Contato</h1>
+                </div>
+
+                <!-- Imgs -->
+                <div class="imgs">
+                    <img src="assets/img/logo1.png" alt="Logo da Romaiap" class="logo_1">
+                </div>
+
+
+                <!-- Midias sociais -->
+                <div class="sociais">
+                    <div class="icons">
+                        <nav class="icons_nav">
+                            <a href="https://api.whatsapp.com/send/?phone=5511995574494&text&type=phone_number&app_absent=0" target="_blank"><img src="assets/img/whatsapp.png" alt="Icon telefone" class="whats" onMouseOver="mouseEmCimaTelefone(this)" onMouseOut="mouseForaTelefone(this)"></a>
+                            <a href="mailto:contato@romaiap.com.br?" target="_blank"><img src="assets/img/email.png" alt="Icon email" class="email" onMouseOver="mouseEmCimaEmail(this)" onMouseOut="mouseForaEmail(this)"></a>
+                            <a href="https://www.linkedin.com/company/romaiap/" target="_blank"><img src="assets/img/linkedin.png" alt="Icon linkedin" class="linkedin" onMouseOver="mouseEmCimaLinkedin(this)" onMouseOut="mouseForaLinkedin(this)"></a>
+                            <a href="https://www.instagram.com/romaiap/" target="_blank"><img src="assets/img/instagram.png" alt="icon instagram" class="instagram" onMouseOver="mouseEmCimaInstagram(this)" onMouseOut="mouseForaInstagram(this)"></a>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- Botão -->
+                <a href="https://api.whatsapp.com/send/?phone=5511995574494&text&type=phone_number&app_absent=0" target="_blank" class="cont_botao"><button class="botao_cont">Contato</button></a>
+
+            </section>
+
+        </div>
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="creditos">
+                <p>@2023 Romaiap</p>
+                <p>Marketing and design: <a href="https://www.linkedin.com/in/mariana-bizerra-moreira-84a306153/" target="_blank">Mariana Bizerra Moreira</a></p>
+                <p>Website developer: <a href="https://github.com/MarcusVBMoreira" target="_blank">Marcus V B Moreira</a></p>
+            </div>
+        </footer>
+
+        <!-- JS -->
+        <script src="assets/JavaScript/program.js"></script>
+
+        <!-- Créditos -->
+        <!-- <a href="https://www.flaticon.com/br/icones-gratis/">Flaticon</a> -->
+    </body>
+</html>
