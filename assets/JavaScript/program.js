@@ -96,3 +96,33 @@ function showMessage4(){
 function hideMessage4(){
     mensagem4.style.display = "none";
 }
+
+/* Linha do tempo / Mensagem 5 */
+let mensagem5 = document.querySelector('.mensagem5')
+function showMessage5(){
+    mensagem5.style.display = 'block';
+}
+
+function hideMessage5(){
+    mensagem5.style.display = "none";
+}
+
+/* Linha do tempo / Mensagem 6 */
+let mensagem6 = document.querySelector('.mensagem6')
+function showMessage6(){
+    mensagem6.style.display = 'block';
+}
+
+function hideMessage6(){
+    mensagem6.style.display = "none";
+}
+
+/* Linha do tempo / Mensagem 7 */
+let mensagem7 = document.querySelector('.mensagem7')
+function showMessage7(){
+    mensagem7.style.display = 'block';
+}
+
+function hideMessage7(){
+    mensagem7.style.display = "none";
+}
