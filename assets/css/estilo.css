@@ -1227,7 +1227,7 @@ footer{
     }
     /* MENSAGEM 6 */
     .mensagem6{
-        margin-top: -59%;
+        margin-top: -45%;
     }
     [data-animation='move6'] {
         animation: move6 2s;
@@ -1242,7 +1242,7 @@ footer{
     }
     /* MENSAGEM 7 */
     .mensagem7{
-        margin-top: -46%;
+        margin-top: -37%;
     }
     [data-animation='move7'] {
         animation: move7 2s;
