@@ -1,4 +1,4 @@
-# 🌿 Romaiap – Landing Page Institucional
+# 💓 Romaiap – Landing Page Institucional
 
 Projeto de desenvolvimento de um site institucional para a Romaiap, uma empresa especializada em aromaterapia, com foco em apresentação da marca, produtos e informações de contato.
 
